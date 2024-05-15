@@ -1,9 +1,5 @@
 ![Banner git](https://github.com/FrancoKaddour/FrancoKaddour/assets/147673141/9aff084b-2148-4f4a-baa1-390744fc50af)
 
-<div align="center">
-  <img height="150" src="https://github.com/FrancoKaddour/FrancoKaddour/assets/147673141/9aff084b-2148-4f4a-baa1-390744fc50af"  />
-</div>
-
 ###
 
 <div align="center">
@@ -22,6 +18,15 @@
 
 <p align="left">I am Franco and I live in Argentina, Buenos Aires.<br><br>- 🔭I'm working on personal projects, seeking to improve myself.<br>- 📚 I'm currently learning react and then I plan to learn ux UI design.<br>- ⚡ In my free time I seek to learn new technologies.</p>
 
+###
+
+```javascript
+const francoKaddour = {
+  pronouns: "he" | "him",
+  code: [JS, HTML, CSS],
+  tools: [React, Boostrap, GitHub, Sass],
+}
+```
 ###
 
 <h3 align="center">🛠 Language and tools</h3>
