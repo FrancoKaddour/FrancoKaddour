@@ -1,9 +1,15 @@
 ![Banner git](https://github.com/FrancoKaddour/FrancoKaddour/assets/147673141/9aff084b-2148-4f4a-baa1-390744fc50af)
 
+<div align="center">
+  <img height="150" src="https://github.com/FrancoKaddour/FrancoKaddour/assets/147673141/9aff084b-2148-4f4a-baa1-390744fc50af"  />
+</div>
+
 ###
 
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  <a href="www.linkedin.com/in/francokaddour" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=FK&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
 </div>
 
 ###
