@@ -1,9 +1,5 @@
 ![Banner git](https://github.com/FrancoKaddour/FrancoKaddour/assets/147673141/9aff084b-2148-4f4a-baa1-390744fc50af)
 
-<div align="center">
-  <img height="150" src="https://github.com/FrancoKaddour/FrancoKaddour/assets/147673141/9aff084b-2148-4f4a-baa1-390744fc50af"  />
-</div>
-
 ###
 
 <div align="center">
