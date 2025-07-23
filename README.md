@@ -1,61 +1,54 @@
-<div align="center">
+![Banner git](https://github.com/FrancoKaddour/FrancoKaddour/assets/147673141/9aff084b-2148-4f4a-baa1-390744fc50af)
 
-# Tu Nombre
-## Tu Apellido o Especialidad
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/tuuser)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tuuser)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge)](https://tuportafolio.com)
-
-**Tu rol principal**  
-Breve descripción profesional (ej: Frontend Developer | React Specialist)
-
-</div>
-
----
-
-### 🔥 Proyectos Destacados
+###
 
 <div align="center">
-<table>
-  <tr>
-    <td width="50%">
-      <h3>E-commerce JavaScript</h3>
-      <div>
-        <img src="https://via.placeholder.com/600x400/2D3748/FFFFFF?text=E-commerce+JS" alt="Demo">
-      </div>
-      <p>Tienda online 100% funcional con JavaScript Vanilla</p>
-      <a href="https://github.com/tuusuario/ecommerce-js">
-        <img src="https://img.shields.io/badge/Ver_Código-181717?style=for-the-badge&logo=github&logoColor=white">
-      </a>
-    </td>
-    <td width="50%">
-      <h3>Nombre Proyecto 2</h3>
-      <div>
-        <img src="https://via.placeholder.com/600x400/2D3748/FFFFFF?text=Proyecto+2" alt="Demo">
-      </div>
-      <p>Descripción breve del proyecto</p>
-      <a href="#">
-        <img src="https://img.shields.io/badge/Ver_Código-181717?style=for-the-badge&logo=github&logoColor=white">
-      </a>
-    </td>
-  </tr>
-</table>
+  <a href="https://www.linkedin.com/in/francokaddour/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=FK&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
 </div>
 
----
+###
 
-### 🛠 Tecnologías Principales
+<h1 align="center">Hello everyone 👋</h1>
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+###
 
----
+<h3 align="center">👩‍💻  About Me</h3>
 
-### 📊 Estadísticas GitHub
+###
 
-![](https://github-readme-stats.vercel.app/api?username=tuusuario&show_icons=true&theme=dark)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=tuusuario&layout=compact&theme=dark)
+<p align="left">I am Franco and I live in Argentina, Buenos Aires.<br><br>- 🔭I'm working on personal projects, seeking to improve myself.<br>- 📚 I'm currently learning react and then I plan to learn ux UI design.<br>- ⚡ In my free time I seek to learn new technologies.</p>
+
+###
+
+```javascript
+const francoKaddour = {
+  pronouns: "he" | "him",
+  code: [JS, HTML, CSS],
+  tools: [React, Boostrap, GitHub, Sass],
+}
+```
+###
+
+<h3 align="center">🛠 Language and tools</h3>
+
+###
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
+</div>
+
+###
