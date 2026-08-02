@@ -10,7 +10,7 @@
 
 <br/>
 
-<div align="center">Frontend engineer building with <b>React, TypeScript and Node.js</b> — two years shipping production apps for real clients, from architecture to UI. Open source contributor to <b>supabase-js</b>, <b>Astro</b>, <b>Storybook</b> and <b>TanStack Router</b>.</div>
+<div align="center">Frontend engineer building with <b>React, TypeScript and Node.js</b> — two years shipping production apps for real clients, from architecture to UI. Open source contributor to <b>supabase-js</b>, <b>Astro</b>, <b>Storybook</b>, <b>Zag.js (Chakra UI)</b> and <b>TanStack</b>.</div>
 
 <br/>
 
@@ -22,15 +22,18 @@
 
 - **supabase/supabase-js** — Realtime fix (`track()` options forwarding) + tests. Shipped in [v2.110.6](https://github.com/supabase/supabase-js/releases/tag/v2.110.6), credited in the release notes → [#2490](https://github.com/supabase/supabase-js/pull/2490)
 - **supabase/supabase-js** — Functions fix (abort-listener cleanup on `invoke()`). Shipped in [v2.110.8](https://github.com/supabase/supabase-js/releases/tag/v2.110.8), credited in the release notes → [#2487](https://github.com/supabase/supabase-js/pull/2487)
-- **withastro/astro** → [#17270](https://github.com/withastro/astro/pull/17270) · **withastro/starlight** → [#4008](https://github.com/withastro/starlight/pull/4008)
+- **storybookjs/storybook** — root-caused and fixed a `TypeError: Illegal invocation` in the 10.5 focus instrumentation that broke react-aria and Fluent UI focus handling → [#35528](https://github.com/storybookjs/storybook/pull/35528)
+- **chakra-ui/zag** — marquee fix: animation duration derived from content size so speed is viewport-independent → [#3233](https://github.com/chakra-ui/zag/pull/3233)
+- **withastro/astro** — Svelte 5 component detection in @astrojs/solid-js, shipped in [@astrojs/solid-js@7.0.1](https://github.com/withastro/astro/releases/tag/%40astrojs%2Fsolid-js%407.0.1) → [#17270](https://github.com/withastro/astro/pull/17270) · **withastro/starlight** — TOC overflow fix, shipped in [@astrojs/starlight@0.41.2](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.41.2) → [#4008](https://github.com/withastro/starlight/pull/4008)
 - **davesnx/styled-ppx** — docs platform migration to Nextra v4 → [#576](https://github.com/davesnx/styled-ppx/pull/576)
 
 **In review**
 
-- **storybookjs/storybook** — root-caused and fixed a `TypeError` in the focus instrumentation that broke react-aria's focus handling on Docs pages → [#35528](https://github.com/storybookjs/storybook/pull/35528)
 - **storybookjs/storybook** — JSDoc parser fix: preserve code fences in the component manifest → [#35527](https://github.com/storybookjs/storybook/pull/35527)
 - **storybookjs/storybook** — root-caused a race where coverage runs from the dev UI crashed large suites → [#35544](https://github.com/storybookjs/storybook/pull/35544)
 - **TanStack/router** — expose destination location to route lifecycle hooks (feature, 1,100+ tests passing) → [#7817](https://github.com/TanStack/router/pull/7817)
+- **TanStack/router** — LRU cache fix: reset oldest pointer when evicting the sole entry → [#7742](https://github.com/TanStack/router/pull/7742)
+- **TanStack/form** — two form-core fixes: re-run form-level validator on resubmit ([#2260](https://github.com/TanStack/form/pull/2260)) · support custom equals() in deep equality ([#2261](https://github.com/TanStack/form/pull/2261))
 
 > Every contribution ships with reproduction, root-cause analysis and tests — reviewed and merged in public.
 
