@@ -70,6 +70,7 @@
 ## 🚀 Production
 
 - **[La Básica Pastelería](https://labasicapasteleria.com)** — e-commerce running in production with real customers (React, WhatsApp sales channel)
+- **[Miga Club](https://migaclub.com.ar/)** — e-commerce running in production (sándwiches de miga & pizzas, Saavedra CABA · React + Vite)
 - **[Portfolio](https://portfolio-web-franco-kaddour.vercel.app/)** — React + Vite
 
 ## 📈 GitHub Stats
