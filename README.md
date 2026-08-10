@@ -1,16 +1,16 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/FrancoKaddour/FrancoKaddour/main/header.png" width="100%" alt="Franco Kaddour — Web Developer"/>
+<img src="https://raw.githubusercontent.com/FrancoKaddour/FrancoKaddour/main/header.png" width="100%" alt="Franco Kaddour — Web Developer"/>
 </div>
 
 <div align="center">
-  <a href="mailto:francokaddour@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://www.linkedin.com/in/francokaddour"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://portfolio-web-franco-kaddour.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="mailto:francokaddour@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<a href="https://www.linkedin.com/in/francokaddour"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://portfolio-web-franco-kaddour.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 </div>
 
 <br/>
 
-<div align="center">Frontend engineer building with <b>React, TypeScript and Node.js</b> — two years shipping production apps for real clients, from architecture to UI. Open source contributor to <b>supabase-js</b>, <b>Astro</b>, <b>Storybook</b>, <b>Zag.js (Chakra UI)</b> and <b>TanStack</b>.</div>
+<div align="center">Frontend engineer — two years shipping production apps for real clients, from architecture to UI. Open source contributor.</div>
 
 <br/>
 
@@ -18,22 +18,37 @@
 
 ## 🔓 Open Source
 
-**Merged & shipped**
+PRs to React/TS ecosystem libraries used by millions — several merged by the libraries' own creators. External contributor, not an employee: every item links straight to the PR.
 
-- **supabase/supabase-js** — Realtime fix (`track()` options forwarding) + tests. Shipped in [v2.110.6](https://github.com/supabase/supabase-js/releases/tag/v2.110.6), credited in the release notes → [#2490](https://github.com/supabase/supabase-js/pull/2490)
-- **supabase/supabase-js** — Functions fix (abort-listener cleanup on `invoke()`). Shipped in [v2.110.8](https://github.com/supabase/supabase-js/releases/tag/v2.110.8), credited in the release notes → [#2487](https://github.com/supabase/supabase-js/pull/2487)
-- **storybookjs/storybook** — root-caused and fixed a `TypeError: Illegal invocation` in the 10.5 focus instrumentation that broke react-aria and Fluent UI focus handling → [#35528](https://github.com/storybookjs/storybook/pull/35528)
-- **chakra-ui/zag** — marquee fix: animation duration derived from content size so speed is viewport-independent → [#3233](https://github.com/chakra-ui/zag/pull/3233)
-- **withastro/astro** — Svelte 5 component detection in @astrojs/solid-js, shipped in [@astrojs/solid-js@7.0.1](https://github.com/withastro/astro/releases/tag/%40astrojs%2Fsolid-js%407.0.1) → [#17270](https://github.com/withastro/astro/pull/17270) · **withastro/starlight** — TOC overflow fix, shipped in [@astrojs/starlight@0.41.2](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.41.2) → [#4008](https://github.com/withastro/starlight/pull/4008)
-- **davesnx/styled-ppx** — docs platform migration to Nextra v4 → [#576](https://github.com/davesnx/styled-ppx/pull/576)
+Shipped to production (merged and released, credited in the release notes)
 
-**In review**
+- supabase/supabase-js — Realtime fix track() options forwarding) + tests. Shipped in [v2.110.6](https://github.com/supabase/supabase-js/releases/tag/v2.110.6) → [#2490](https://github.com/supabase/supabase-js/pull/2490)
 
-- **storybookjs/storybook** — JSDoc parser fix: preserve code fences in the component manifest → [#35527](https://github.com/storybookjs/storybook/pull/35527)
-- **storybookjs/storybook** — root-caused a race where coverage runs from the dev UI crashed large suites → [#35544](https://github.com/storybookjs/storybook/pull/35544)
-- **TanStack/router** — expose destination location to route lifecycle hooks (feature, 1,100+ tests passing) → [#7817](https://github.com/TanStack/router/pull/7817)
-- **TanStack/router** — LRU cache fix: reset oldest pointer when evicting the sole entry → [#7742](https://github.com/TanStack/router/pull/7742)
-- **TanStack/form** — two form-core fixes: re-run form-level validator on resubmit ([#2260](https://github.com/TanStack/form/pull/2260)) · support custom equals() in deep equality ([#2261](https://github.com/TanStack/form/pull/2261))
+- supabase/supabase-js — Functions fix (abort-listener cleanup on invoke()). Shipped in [v2.110.8](https://github.com/supabase/supabase-js/releases/tag/v2.110.8) → [#2487](https://github.com/supabase/supabase-js/pull/2487)
+
+- withastro/astro — Svelte 5 component detection in @astrojs/solid-js. Shipped in [@astrojs/solid-js@7.0.1](https://github.com/withastro/astro/releases/tag/%40astrojs%2Fsolid-js%407.0.1) → [#17270](https://github.com/withastro/astro/pull/17270)
+
+- withastro/starlight — TOC overflow fix with custom --sl-content-width. Shipped in [@astrojs/starlight@0.41.2](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.41.2) → [#4008](https://github.com/withastro/starlight/pull/4008)
+
+Merged by maintainers
+
+- adobe/react-spectrum — Ethiopic/Coptic calendar conversion fix in @internationalized/date. Approved by devongovett (its creator), merged by snowystinger → [#10424](https://github.com/adobe/react-spectrum/pull/10424)
+
+- chakra-ui/zag — Floating Panel: keep the panel stack in sync on close and apply stack order to the positioner. Merged by Segun Adebayo (Chakra UI creator) → [#3246](https://github.com/chakra-ui/zag/pull/3246)
+
+- chakra-ui/zag — Marquee fix: animation duration derived from content size so speed is viewport-independent. Merged by Segun Adebayo → [#3233](https://github.com/chakra-ui/zag/pull/3233)
+
+- storybookjs/storybook — root-caused and fixed a TypeError: Illegal invocation in the 10.5 focus instrumentation that broke react-aria and Fluent UI focus handling → [#35528](https://github.com/storybookjs/storybook/pull/35528)
+
+In review
+
+- remix-run/react-router — Fix uncaught exception when canceling streams created by createReadableStreamFromReadable → [#15377](https://github.com/remix-run/react-router/pull/15377)
+
+- remix-run/react-router — Wrap dev critical-CSS reset in React.startTransition to avoid breaking hydration of streamed Suspense boundaries → [#15382](https://github.com/remix-run/react-router/pull/15382)
+
+- TanStack/router — router-plugin: don't patch foreign routers on first route-module import → [#7937](https://github.com/TanStack/router/pull/7937)
+
+- TanStack/form — form-core: support value types with a custom equals() method in deep equality → [#2261](https://github.com/TanStack/form/pull/2261)
 
 > Every contribution ships with reproduction, root-cause analysis and tests — reviewed and merged in public.
 
@@ -76,13 +91,13 @@
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=FrancoKaddour&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
+<img src="https://streak-stats.demolab.com/?user=FrancoKaddour&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FrancoKaddour&theme=tokyo-night&hide_border=true" width="95%" alt="Contribution activity graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=FrancoKaddour&theme=tokyo-night&hide_border=true" width="95%" alt="Contribution activity graph"/>
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=1572B6&height=100&section=footer" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1572B6&height=100&section=footer" width="100%" alt=""/>
 </div>
