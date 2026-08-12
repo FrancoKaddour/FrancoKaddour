@@ -18,31 +18,30 @@
 
 ## 🔓 Open Source
 
-Merged PRs in React/TS libraries used by millions — several merged by the libraries' **own creators**. Every item links straight to the PR.
+PRs to React/TS ecosystem libraries used by millions — several merged by the libraries' own creators. External contributor, not an employee: every item links straight to the PR.
 
-| Library | Contribution | PR |
-|---|---|:--:|
-| **adobe/react-spectrum** | Ethiopic/Coptic calendar fix in `@internationalized/date` — **approved by [devongovett](https://github.com/devongovett), its creator** | [#10424](https://github.com/adobe/react-spectrum/pull/10424) |
-| **chakra-ui/zag** | Floating Panel stacking fix — **merged by [Segun Adebayo](https://github.com/segunadebayo), Chakra's creator** | [#3246](https://github.com/chakra-ui/zag/pull/3246) |
-| **supabase/supabase-js** | Realtime `track()` options forwarding + tests — **shipped in v2.110.6, credited in the release notes** | [#2490](https://github.com/supabase/supabase-js/pull/2490) |
-| **storybookjs/storybook** | Root-caused an `Illegal invocation` in the 10.5 focus instrumentation breaking react-aria | [#35528](https://github.com/storybookjs/storybook/pull/35528) |
-| **withastro/astro** | Svelte 5 component detection in `@astrojs/solid-js` — shipped in 7.0.1 | [#17270](https://github.com/withastro/astro/pull/17270) |
+**Shipped to production** (merged and released, credited in the release notes)
 
-<details>
-<summary><b>More merged &amp; in review</b></summary>
-<br/>
+- **supabase/supabase-js** — Realtime fix (`track()` options forwarding) + tests. Shipped in [v2.110.6](https://github.com/supabase/supabase-js/releases/tag/v2.110.6) → [#2490](https://github.com/supabase/supabase-js/pull/2490)
+- **supabase/supabase-js** — Functions fix (abort-listener cleanup on `invoke()`). Shipped in [v2.110.8](https://github.com/supabase/supabase-js/releases/tag/v2.110.8) → [#2487](https://github.com/supabase/supabase-js/pull/2487)
+- **withastro/astro** — Svelte 5 component detection in @astrojs/solid-js. Shipped in [@astrojs/solid-js@7.0.1](https://github.com/withastro/astro/releases/tag/%40astrojs%2Fsolid-js%407.0.1) → [#17270](https://github.com/withastro/astro/pull/17270)
+- **withastro/starlight** — TOC overflow fix with custom `--sl-content-width`. Shipped in [@astrojs/starlight@0.41.2](https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.41.2) → [#4008](https://github.com/withastro/starlight/pull/4008)
 
-- **chakra-ui/zag** — Marquee duration derived from content size (viewport-independent speed) · merged by Segun Adebayo → [#3233](https://github.com/chakra-ui/zag/pull/3233)
-- **supabase/supabase-js** — Functions abort-listener cleanup on `invoke()` · shipped in v2.110.8 → [#2487](https://github.com/supabase/supabase-js/pull/2487)
-- **withastro/starlight** — TOC overflow fix with custom `--sl-content-width` · shipped in 0.41.2 → [#4008](https://github.com/withastro/starlight/pull/4008)
-- **remix-run/react-router** — Uncaught exception fix when canceling `createReadableStreamFromReadable` streams → [#15377](https://github.com/remix-run/react-router/pull/15377)
-- **remix-run/react-router** — `React.startTransition` for dev critical-CSS reset (streamed Suspense hydration) → [#15382](https://github.com/remix-run/react-router/pull/15382)
+**Merged by maintainers**
+
+- **adobe/react-spectrum** — Ethiopic/Coptic calendar conversion fix in `@internationalized/date`. Approved by devongovett (its creator), merged by snowystinger → [#10424](https://github.com/adobe/react-spectrum/pull/10424)
+- **chakra-ui/zag** — Floating Panel: keep the panel stack in sync on close and apply stack order to the positioner. Merged by Segun Adebayo (Chakra UI creator) → [#3246](https://github.com/chakra-ui/zag/pull/3246)
+- **chakra-ui/zag** — Marquee fix: animation duration derived from content size so speed is viewport-independent. Merged by Segun Adebayo → [#3233](https://github.com/chakra-ui/zag/pull/3233)
+- **storybookjs/storybook** — root-caused and fixed a `TypeError: Illegal invocation` in the 10.5 focus instrumentation that broke react-aria and Fluent UI focus handling → [#35528](https://github.com/storybookjs/storybook/pull/35528)
+
+**In review**
+
+- **remix-run/react-router** — Fix uncaught exception when canceling streams created by `createReadableStreamFromReadable` → [#15377](https://github.com/remix-run/react-router/pull/15377)
+- **remix-run/react-router** — Wrap dev critical-CSS reset in `React.startTransition` to avoid breaking hydration of streamed Suspense boundaries → [#15382](https://github.com/remix-run/react-router/pull/15382)
 - **TanStack/router** — router-plugin: don't patch foreign routers on first route-module import → [#7937](https://github.com/TanStack/router/pull/7937)
-- **TanStack/form** — form-core: deep equality for value types with a custom `equals()` → [#2261](https://github.com/TanStack/form/pull/2261)
+- **TanStack/form** — form-core: support value types with a custom `equals()` method in deep equality → [#2261](https://github.com/TanStack/form/pull/2261)
 
-</details>
-
-> Every PR ships with a reproduction, root-cause analysis and tests — reviewed and merged in public.
+> Every contribution ships with reproduction, root-cause analysis and tests — reviewed and merged in public.
 
 ---
 
