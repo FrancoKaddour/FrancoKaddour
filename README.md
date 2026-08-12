@@ -5,7 +5,7 @@
 <div align="center">
 <a href="mailto:francokaddour@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/></a>
 <a href="https://www.linkedin.com/in/francokaddour"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://portfolio-web-franco-kaddour.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://francokaddour.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 </div>
 
 <br/>
@@ -77,7 +77,7 @@ PRs to React/TS ecosystem libraries used by millions — several merged by the l
 
 - **[La Básica Pastelería](https://labasicapasteleria.com)** — e-commerce running in production with real customers (React, WhatsApp sales channel)
 - **[Miga Club](https://migaclub.com.ar/)** — e-commerce running in production (sándwiches de miga & pizzas, Saavedra CABA · React + Vite)
-- **[Portfolio](https://portfolio-web-franco-kaddour.vercel.app/)** — React + Vite
+- **[Portfolio](https://francokaddour.com)** — React + Vite
 
 ## 📈 GitHub Stats
 
