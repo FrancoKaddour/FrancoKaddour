@@ -82,7 +82,7 @@ PRs to React/TS ecosystem libraries used by millions — several merged by the l
 ## 📈 GitHub Stats
 
 <div align="center">
-<img src="https://streak-stats.demolab.com/?user=FrancoKaddour&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=FrancoKaddour&theme=tokyo-night&hide_border=true" width="95%" alt="Contribution activity graph"/>
 </div>
 
 <div align="center">
