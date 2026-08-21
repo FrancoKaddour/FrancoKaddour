@@ -77,6 +77,7 @@ PRs to React/TS ecosystem libraries used by millions — several merged by the l
 
 - **[La Básica Pastelería](https://labasicapasteleria.com)** — e-commerce running in production with real customers (React, WhatsApp sales channel)
 - **[Miga Club](https://migaclub.com.ar/)** — e-commerce running in production (sándwiches de miga & pizzas, Saavedra CABA · React + Vite)
+- **[Espacio Vina](https://www.espaciovina.com/)** — home & deco e-commerce in production (Laravel · Tailwind · Alpine.js)
 - **[Portfolio · Franco Kaddour](https://francokaddour.com)** — React + Vite
 - **[Portfolio · María Laura Isaías](https://porfolio-web-laura-isaias.vercel.app/)** — inclusion & mental health specialist (vanilla HTML/CSS/JS · Vercel)
 
